@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manisha Gandhi — Corporate & Securities Law</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Playfair Display (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========================================================
+       NAVIGATION
+  ======================================================== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">MG<span class="logo-dot">.</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========================================================
+       HERO / HOME
+  ======================================================== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-text" aria-hidden="true">LAW</div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">LLM — Business &amp; Corporate Law</p>
+      <h1 class="hero-name">Manisha<br /><em>Gandhi</em></h1>
+      <div class="hero-divider"></div>
+      <p class="hero-intro">
+        A legal researcher and graduate specialising in securities regulation,
+        corporate governance, and capital market law. Committed to advancing
+        rigorous scholarship at the intersection of regulatory policy and
+        business law in India and beyond.
+      </p>
+      <div class="hero-actions">
+        <a href="#research" class="btn-primary">View Research</a>
+        <a href="#contact" class="btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-side">
+      <!-- Profile photo -->
+      <div class="hero-photo-wrap">
+        <div class="hero-photo">
+          <!--
+            PROFILE PHOTO:
+            Replace "profile.jpg" with your actual image filename.
+            Upload the image to the root of your GitHub repository
+            (same folder as index.html). Recommended: 400x500px, portrait.
+          -->
+          <img
+            src="profile.jpg"
+            alt="Manisha Gandhi — LLM Corporate & Securities Law"
+            onerror="this.closest('.hero-photo').classList.add('photo-fallback')"
+          />
+          <!-- Fallback initials shown when no image is uploaded yet -->
+          <div class="photo-initials" aria-hidden="true">MG</div>
+        </div>
+        <div class="hero-photo-tag">Corporate &amp; Securities Law</div>
+      </div>
+      <!-- Decorative rule block -->
+      <div class="hero-rule-block" aria-hidden="true">
+        <span>SEBI</span>
+        <span>IPO Regulation</span>
+        <span>Corporate Law</span>
+        <span>Capital Markets</span>
+        <span>Securities Law</span>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <span class="scroll-line"></span>
+      <span class="scroll-label">Scroll</span>
+    </a>
+  </section>
+
+  <!-- ========================================================
+       ABOUT
+  ======================================================== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-label">01 / About</div>
+      <div class="about-grid">
+
+        <!-- Left: Profile photo -->
+        <div class="about-photo-col">
+          <!--
+            PROFILE PHOTO (About section):
+            Same image file as the hero. Upload "profile.jpg" to your
+            GitHub repo root once and both sections update automatically.
+          -->
+          <div class="about-photo-frame">
+            <img
+              src="profile.jpg"
+              alt="Manisha Gandhi"
+              onerror="this.closest('.about-photo-frame').classList.add('photo-fallback')"
+            />
+            <div class="photo-initials" aria-hidden="true">MG</div>
+          </div>
+          <div class="about-photo-badge">
+            <span class="badge-title">Manisha Gandhi</span>
+            <span class="badge-sub">LLM — Business &amp; Corporate Law</span>
+          </div>
+        </div>
+
+        <!-- Middle: Bio text -->
+        <div class="about-bio">
+          <h2 class="section-title">Bridging Regulation<br /><em>and Practice</em></h2>
+          <p>
+            Manisha Gandhi is an LLM candidate in Business and Corporate Law with a keen
+            focus on the regulatory architecture governing India's capital markets. Her
+            academic journey is driven by a belief that rigorous legal scholarship must
+            engage meaningfully with the practical realities of securities regulation,
+            investor protection, and corporate accountability.
+          </p>
+          <p>
+            Prior to her LLM, Manisha completed her BBA LLB (Hons.), where she
+            developed a strong foundation in contract law, company law, and administrative
+            law. She has since honed her analytical skills through independent research and
+            participation in national moot court competitions.
+          </p>
+          <p>
+            She aspires to contribute to regulatory reform dialogue, particularly around
+            SEBI's evolving mandate, IPO disclosure norms, and the governance of listed
+            entities in India.
+          </p>
+        </div>
+
+        <!-- Right: Details cards -->
+        <div class="about-details">
+          <div class="detail-card">
+            <div class="detail-icon">🎓</div>
+            <h3>Education</h3>
+            <ul>
+              <li>
+                <strong>LLM — Business &amp; Corporate Law</strong><br />
+                [University Name], 2023–2025
+              </li>
+              <li>
+                <strong>BBA LLB (Hons.)</strong><br />
+                [University Name], 2018–2023
+              </li>
+            </ul>
+          </div>
+          <div class="detail-card">
+            <div class="detail-icon">⚖️</div>
+            <h3>Areas of Interest</h3>
+            <ul>
+              <li>SEBI Regulations &amp; Enforcement</li>
+              <li>IPO Disclosure &amp; Compliance</li>
+              <li>Corporate Governance of Listed Entities</li>
+              <li>Mergers, Acquisitions &amp; Takeover Code</li>
+              <li>Insider Trading Law</li>
+              <li>Securities Class Actions</li>
+            </ul>
+          </div>
+          <div class="detail-card">
+            <div class="detail-icon">🏆</div>
+            <h3>Achievements</h3>
+            <ul>
+              <li>Semi-Finalist, [Moot Court Name] 2024</li>
+              <li>Best Memorial, [Competition Name] 2023</li>
+              <li>Merit Scholarship, LLM 2023–2024</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       RESEARCH PAPERS
+  ======================================================== -->
+  <section id="research" class="section research-section">
+    <div class="container">
+      <div class="section-label">02 / Research</div>
+      <h2 class="section-title">Research <em>Papers</em></h2>
+      <p class="section-subtitle">
+        Peer-reviewed articles, working papers, and seminar submissions
+        exploring contemporary issues in corporate and securities law.
+      </p>
+
+      <div class="research-grid">
+
+        <!-- Paper 1 -->
+        <article class="research-card">
+          <div class="card-tag">Securities Law</div>
+          <h3>SEBI's Regulatory Overreach: Analysing the Boundaries of Quasi-Judicial Power in Securities Adjudication</h3>
+          <p class="card-abstract">
+            This paper examines the constitutional and statutory limits of SEBI's
+            adjudicatory authority under the SEBI Act, 1992. It analyses landmark
+            SAT and Supreme Court decisions to map the evolving contours of due
+            process in securities enforcement, arguing for a clearer separation
+            between SEBI's investigative and adjudicatory functions.
+          </p>
+          <div class="card-meta">
+            <span>2024 &nbsp;|&nbsp; LLM Dissertation Draft</span>
+          </div>
+          <a href="#" class="card-link">Read Abstract →</a>
+        </article>
+
+        <!-- Paper 2 -->
+        <article class="research-card">
+          <div class="card-tag">Capital Markets</div>
+          <h3>Disclosure Adequacy in Indian IPOs: A Critical Review of SEBI's ICDR Regulations</h3>
+          <p class="card-abstract">
+            Through a comparative analysis of SEBI's Issue of Capital and Disclosure
+            Requirements Regulations with SEC Rule S-K and EU Prospectus Regulation,
+            this paper evaluates whether Indian IPO prospectus norms adequately protect
+            retail investors. It proposes targeted amendments to improve risk factor
+            specificity and financial statement accessibility.
+          </p>
+          <div class="card-meta">
+            <span>2024 &nbsp;|&nbsp; Seminar Paper</span>
+          </div>
+          <a href="#" class="card-link">Read Abstract →</a>
+        </article>
+
+        <!-- Paper 3 -->
+        <article class="research-card">
+          <div class="card-tag">Corporate Governance</div>
+          <h3>Independent Directors in India: Myth, Mandate, and the Post-Uday Kotak Committee Reality</h3>
+          <p class="card-abstract">
+            Drawing on empirical data from NSE-listed companies, this paper interrogates
+            whether SEBI's post-Kotak Committee reforms have meaningfully enhanced
+            independent director efficacy. It identifies structural impediments —
+            promoter influence, information asymmetry, and liability chilling — that
+            undermine board independence in practice.
+          </p>
+          <div class="card-meta">
+            <span>2023 &nbsp;|&nbsp; Research Paper</span>
+          </div>
+          <a href="#" class="card-link">Read Abstract →</a>
+        </article>
+
+        <!-- Paper 4 -->
+        <article class="research-card">
+          <div class="card-tag">M&amp;A Law</div>
+          <h3>Creeping Acquisitions and the SEBI Takeover Code: Plugging the Gaps in Threshold Regulation</h3>
+          <p class="card-abstract">
+            This paper analyses how sophisticated acquirers exploit definitional
+            ambiguities in the SEBI (Substantial Acquisition of Shares and Takeovers)
+            Regulations, 2011 to avoid mandatory open offer obligations. It proposes
+            a look-through approach modelled on UK Panel practice to address regulatory
+            arbitrage in domestic M&amp;A transactions.
+          </p>
+          <div class="card-meta">
+            <span>2023 &nbsp;|&nbsp; Working Paper</span>
+          </div>
+          <a href="#" class="card-link">Read Abstract →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       PUBLICATIONS & CONFERENCES
+  ======================================================== -->
+  <section id="publications" class="section publications-section">
+    <div class="container">
+      <div class="section-label">03 / Publications &amp; Conferences</div>
+      <h2 class="section-title">Presentations <em>&amp; Publications</em></h2>
+
+      <div class="pub-columns">
+
+        <!-- Journal Publications -->
+        <div class="pub-group">
+          <h3 class="pub-group-title">Journal Publications</h3>
+          <div class="pub-entry">
+            <span class="pub-year">2024</span>
+            <div class="pub-info">
+              <p class="pub-title">"Towards a Principles-Based Approach to Related Party Transactions under the Companies Act, 2013"</p>
+              <p class="pub-venue">[Journal of Corporate Law Studies] — Vol. XX, Issue X <span class="pub-status forthcoming">Forthcoming</span></p>
+            </div>
+          </div>
+          <div class="pub-entry">
+            <span class="pub-year">2023</span>
+            <div class="pub-info">
+              <p class="pub-title">"Insider Trading Regulation in India: Lessons from the US and EU Frameworks"</p>
+              <p class="pub-venue">[National Law School Journal] — Vol. XX, pp. XX–XX</p>
+            </div>
+          </div>
+          <div class="pub-entry">
+            <span class="pub-year">2023</span>
+            <div class="pub-info">
+              <p class="pub-title">"The Enforceability of Shareholder Agreements: A Comparative Study"</p>
+              <p class="pub-venue">[Student Bar Review] — Vol. X, pp. XX–XX</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Conference Presentations -->
+        <div class="pub-group">
+          <h3 class="pub-group-title">Conference Presentations</h3>
+          <div class="pub-entry">
+            <span class="pub-year">2024</span>
+            <div class="pub-info">
+              <p class="pub-title">"SEBI's Enforcement Discretion and the Rule of Law"</p>
+              <p class="pub-venue">[National Seminar on Securities Regulation] — [City], India</p>
+            </div>
+          </div>
+          <div class="pub-entry">
+            <span class="pub-year">2024</span>
+            <div class="pub-info">
+              <p class="pub-title">"Retail Investor Protection in SME IPOs: Gaps and Remedies"</p>
+              <p class="pub-venue">[Annual Capital Markets Conference] — [University Name]</p>
+            </div>
+          </div>
+          <div class="pub-entry">
+            <span class="pub-year">2023</span>
+            <div class="pub-info">
+              <p class="pub-title">"Corporate Social Responsibility as a Governance Mechanism"</p>
+              <p class="pub-venue">[International Law Students' Association Conference] — [City]</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       BLOG
+  ======================================================== -->
+  <section id="blog" class="section blog-section">
+    <div class="container">
+      <div class="section-label">04 / Blog</div>
+      <h2 class="section-title">Legal <em>Perspectives</em></h2>
+      <p class="section-subtitle">
+        Accessible commentary on regulatory developments, judicial decisions,
+        and emerging questions in corporate and securities law.
+      </p>
+
+      <div class="blog-grid">
+
+        <!-- Post 1 -->
+        <article class="blog-card featured">
+          <div class="blog-tag">Securities Regulation</div>
+          <div class="blog-date">March 2025</div>
+          <h3>SEBI's New Delisting Framework: A Step Towards Fairer Price Discovery or a Promoter's Escape Hatch?</h3>
+          <p>
+            SEBI's overhauled delisting regulations, effective from 2024, introduce a
+            fixed price mechanism as an alternative to the reverse book-building process.
+            While the regulator frames this as a simplification measure, the reform raises
+            pointed questions about minority shareholder protection and the adequacy of
+            the floor price formula in thinly-traded securities…
+          </p>
+          <a href="#" class="card-link">Continue Reading →</a>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="blog-card">
+          <div class="blog-tag">Corporate Governance</div>
+          <div class="blog-date">January 2025</div>
+          <h3>The MCA's Consultation Paper on D&amp;O Liability: What Boards Need to Know</h3>
+          <p>
+            The Ministry of Corporate Affairs' recent consultation paper signals a
+            significant rethink of director liability standards under the Companies
+            Act, 2013. This post unpacks the proposed reforms to the business judgment
+            rule, the scope of nominee director duties, and the implications for
+            D&amp;O insurance markets in India…
+          </p>
+          <a href="#" class="card-link">Continue Reading →</a>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="blog-card">
+          <div class="blog-tag">Capital Markets</div>
+          <div class="blog-date">November 2024</div>
+          <h3>Grey Market Premiums and IPO Pricing: Should Regulators Intervene?</h3>
+          <p>
+            The robust grey market for unlisted IPO shares has long operated in a
+            regulatory blind spot. This post examines whether SEBI has the statutory
+            authority — and the policy justification — to regulate GMP activity,
+            drawing on analogies from derivative regulation and the experience of
+            international markets with similar phenomena…
+          </p>
+          <a href="#" class="card-link">Continue Reading →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       CONTACT
+  ======================================================== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-label">05 / Contact</div>
+      <div class="contact-inner">
+        <div class="contact-left">
+          <h2 class="section-title">Let's <em>Connect</em></h2>
+          <p>
+            I welcome opportunities for research collaboration, academic discussion,
+            and professional engagement. Whether you are a fellow researcher, a legal
+            practitioner, or a policy professional, feel free to reach out.
+          </p>
+          <div class="contact-links">
+            <a href="/cdn-cgi/l/email-protection#a1ccc0cfc8d2c9c08fc6c0cfc5c9c8e1c4d9c0ccd1cdc48fc2cecc" class="contact-item">
+              <span class="contact-icon">✉</span>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value"><span class="__cf_email__" data-cfemail="a7cac6c9ced4cfc689c0c6c9c3cfcee7c2dfc6cad7cbc289c4c8ca">[email&#160;protected]</span></span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/manishagandhi" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <span class="contact-icon">in</span>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">linkedin.com/in/manishagandhi</span>
+              </div>
+            </a>
+            <a href="#" class="contact-item">
+              <span class="contact-icon">📄</span>
+              <div>
+                <span class="contact-label">Curriculum Vitae</span>
+                <span class="contact-value">Download PDF</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <!-- Simple contact note — no form needed for static site -->
+          <div class="contact-note">
+            <blockquote>
+              "The law is not an end in itself, nor does it provide ends.
+              It is preeminently a means to serve what we think is right."
+            </blockquote>
+            <cite>— William J. Brennan Jr.</cite>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       FOOTER
+  ======================================================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="footer-logo">Manisha Gandhi</span>
+        <span class="footer-tagline">LLM — Business &amp; Corporate Law</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer-right">
+        <p>&copy; <span id="fo
